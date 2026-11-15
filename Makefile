@@ -1,4 +1,4 @@
-SERVER_SRC=Acceptor.cpp TcpServer.cpp Channel.cpp EventLoop.cpp Svr.cpp Connection.cpp Buffer.cpp 
+SERVER_SRC=Acceptor.cpp TcpServer.cpp Channel.cpp EventLoop.cpp Svr.cpp Connection.cpp Buffer.cpp Logger.cpp
 TARGET1=Server
 
 CLIENT_SRC=Client.cpp Clt.cpp Buffer.cpp
@@ -8,7 +8,7 @@ HEAD=include/GetTime.h
 
 all:$(TARGET1) $(TARGET2)
 
-$(TARGET1): $(SERVER_SRC) $(HEAD) 
+$(TARGET1): $(SERVER_SRC) 
 	g++ -Wall -pthread -std=c++17 -Iinclude $(SERVER_SRC) -O2 -o $(TARGET1) -ltcmalloc
 
 $(TARGET2): $(CLIENT_SRC) $(HEAD)

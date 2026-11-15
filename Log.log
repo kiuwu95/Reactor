@@ -1,0 +1,588 @@
+[INFO][2026-11-15 18:00:29]Lauching server...
+[INFO][2026-11-15 18:00:29]Server's IP: 127.0.0.1, Port: 23108, Loops_num: 4
+[INFO][2026-11-15 18:00:29]Acceptor: initializing, IP: 127.0.0.1, port: 23108
+[INFO][2026-11-15 18:00:29]Acceptor: start listening on 127.0.0.1:23108
+[INFO][2026-11-15 18:00:29]Lauch server successfully!
+[INFO][2026-11-15 18:00:29]Starting server, sub loop num: 4
+[INFO][2026-11-15 18:00:29]EventLoop: loop started, tid: 11594146287302397724
+[INFO][2026-11-15 18:00:29]EventLoop: loop started, tid: 14338854208482344061
+[INFO][2026-11-15 18:00:29]Start server successfully!
+[INFO][2026-11-15 18:00:29]EventLoop: loop started, tid: 18268256491563279
+[INFO][2026-11-15 18:00:29]EventLoop: loop started, tid: 17525485474876196353
+[INFO][2026-11-15 18:00:29]EventLoop: loop started, tid: 1607673048527415278
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 54518, fd: 19
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 19, assigned to loop 0
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 54516, fd: 20
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 20, assigned to loop 1
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 54536, fd: 21
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 19
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 21, assigned to loop 2
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 19
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 21
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 21
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 54538, fd: 22
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 22, assigned to loop 3
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 54548, fd: 23
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 23, assigned to loop 0
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 54562, fd: 24
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 24, assigned to loop 1
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 54566, fd: 25
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 25, assigned to loop 2
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 54582, fd: 26
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 26, assigned to loop 3
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 54586, fd: 27
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 27, assigned to loop 0
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 54596, fd: 28
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 28, assigned to loop 1
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 54598, fd: 29
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 29, assigned to loop 2
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 54602, fd: 30
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 30, assigned to loop 3
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 54610, fd: 31
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 31, assigned to loop 0
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 54622, fd: 32
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 32, assigned to loop 1
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 54638, fd: 33
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 33, assigned to loop 2
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 54650, fd: 34
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 34, assigned to loop 3
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 54664, fd: 35
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 35, assigned to loop 0
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 54680, fd: 36
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 36, assigned to loop 1
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 54696, fd: 37
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 37, assigned to loop 2
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 54702, fd: 38
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 38, assigned to loop 3
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 54708, fd: 39
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 39, assigned to loop 0
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 54714, fd: 40
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 40, assigned to loop 1
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 54728, fd: 41
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 41, assigned to loop 2
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 54736, fd: 42
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 42, assigned to loop 3
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 54746, fd: 43
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 43, assigned to loop 0
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 54750, fd: 44
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 44, assigned to loop 1
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 54762, fd: 45
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 45, assigned to loop 2
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 54780, fd: 46
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 46, assigned to loop 3
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 54772, fd: 47
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 47, assigned to loop 0
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 54790, fd: 48
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 48, assigned to loop 1
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 54800, fd: 49
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 49, assigned to loop 2
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 54808, fd: 50
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 50, assigned to loop 3
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 54812, fd: 51
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 51, assigned to loop 0
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 54828, fd: 52
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 52, assigned to loop 1
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 54842, fd: 53
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 53, assigned to loop 2
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 54856, fd: 54
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 54, assigned to loop 3
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 54862, fd: 55
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 55, assigned to loop 0
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 54872, fd: 56
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 56, assigned to loop 1
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 54882, fd: 57
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 57, assigned to loop 2
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 54894, fd: 58
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 58, assigned to loop 3
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 54906, fd: 59
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 59, assigned to loop 0
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 54920, fd: 60
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 60, assigned to loop 1
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 54924, fd: 61
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 61, assigned to loop 2
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 54938, fd: 62
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 62, assigned to loop 3
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 54940, fd: 63
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 63, assigned to loop 0
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 54964, fd: 64
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 64, assigned to loop 1
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 54980, fd: 65
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 65, assigned to loop 2
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 54982, fd: 66
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 66, assigned to loop 3
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 54996, fd: 67
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 67, assigned to loop 0
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55006, fd: 68
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 68, assigned to loop 1
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55016, fd: 69
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 69, assigned to loop 2
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55022, fd: 70
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 70, assigned to loop 3
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55036, fd: 71
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 71, assigned to loop 0
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55048, fd: 72
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 72, assigned to loop 1
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55060, fd: 73
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 73, assigned to loop 2
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55062, fd: 74
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 74, assigned to loop 3
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55072, fd: 75
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 75, assigned to loop 0
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 25
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 25
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 20
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 20
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 29
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 29
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 33
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 33
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 24
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 24
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 37
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 37
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 28
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 28
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 41
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 32
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 32
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 36
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 36
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 40
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 40
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 44
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 41
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 44
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 45
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 45
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 48
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 48
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 52
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 52
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 49
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 56
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 56
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 60
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 60
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 49
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 64
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 64
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 53
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 68
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 53
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 68
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 72
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 57
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 57
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 61
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 61
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 65
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 65
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 69
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 69
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 72
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 73
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 73
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 23
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 23
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 27
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 27
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 31
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 31
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 35
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 22
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 35
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 22
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 39
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 26
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 26
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 30
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 30
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 34
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 34
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 38
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 38
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 42
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 42
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 46
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 46
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 50
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 50
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 54
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 54
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 58
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 58
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 62
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 62
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 66
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 66
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 70
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 70
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 74
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 74
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 39
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 43
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 43
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 47
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 47
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 51
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 51
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 55
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 55
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 59
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 59
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 63
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 63
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 67
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 67
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 71
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 71
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 75
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 75
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55078, fd: 76
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 76, assigned to loop 1
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55088, fd: 77
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 77, assigned to loop 2
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55100, fd: 78
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 78, assigned to loop 3
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55114, fd: 79
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 79, assigned to loop 0
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55124, fd: 80
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 80, assigned to loop 1
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55140, fd: 81
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 81, assigned to loop 2
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55152, fd: 82
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 82, assigned to loop 3
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55170, fd: 83
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 83, assigned to loop 0
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55150, fd: 84
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 84, assigned to loop 1
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55174, fd: 85
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 85, assigned to loop 2
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55188, fd: 86
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 86, assigned to loop 3
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55196, fd: 87
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 87, assigned to loop 0
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55208, fd: 88
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 88, assigned to loop 1
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55224, fd: 89
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 89, assigned to loop 2
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55234, fd: 90
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 90, assigned to loop 3
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55238, fd: 91
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 91, assigned to loop 0
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55252, fd: 92
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 92, assigned to loop 1
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55260, fd: 93
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 93, assigned to loop 2
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55264, fd: 94
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 94, assigned to loop 3
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55266, fd: 95
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 95, assigned to loop 0
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55280, fd: 96
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 96, assigned to loop 1
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55290, fd: 97
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 97, assigned to loop 2
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55300, fd: 98
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 98, assigned to loop 3
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55302, fd: 99
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 99, assigned to loop 0
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55304, fd: 100
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 100, assigned to loop 1
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55306, fd: 101
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 101, assigned to loop 2
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55318, fd: 102
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 102, assigned to loop 3
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55332, fd: 103
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 103, assigned to loop 0
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55340, fd: 104
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 104, assigned to loop 1
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55344, fd: 105
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 105, assigned to loop 2
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55360, fd: 106
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 106, assigned to loop 3
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55366, fd: 107
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 107, assigned to loop 0
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55374, fd: 108
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 108, assigned to loop 1
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55386, fd: 109
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 109, assigned to loop 2
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55400, fd: 110
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 110, assigned to loop 3
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55408, fd: 111
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 111, assigned to loop 0
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55420, fd: 112
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 112, assigned to loop 1
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 76
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 76
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 80
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 80
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 84
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 84
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 88
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 88
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 92
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 92
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 96
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 96
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 100
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 100
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 104
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 104
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 108
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 108
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 112
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 112
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 77
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 77
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 81
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 81
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 85
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 85
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 89
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 89
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 93
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 93
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 97
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 97
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 101
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 101
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 105
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 105
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 109
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 109
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 78
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 78
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 82
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 82
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 86
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 86
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 90
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 90
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 94
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 94
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 98
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 98
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 102
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 102
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 106
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 106
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 110
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 110
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 79
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 79
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 83
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 83
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 87
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 87
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 91
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 91
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 95
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 95
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 99
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 99
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 103
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 103
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 107
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 107
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 111
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 111
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55436, fd: 113
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 113, assigned to loop 2
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55452, fd: 114
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 114, assigned to loop 3
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55456, fd: 115
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 115, assigned to loop 0
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55466, fd: 116
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 116, assigned to loop 1
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55478, fd: 117
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 117, assigned to loop 2
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55494, fd: 118
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 118, assigned to loop 3
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55496, fd: 119
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 119, assigned to loop 0
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55500, fd: 120
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 120, assigned to loop 1
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55512, fd: 121
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 121, assigned to loop 2
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55524, fd: 122
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 122, assigned to loop 3
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55538, fd: 123
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 123, assigned to loop 0
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55544, fd: 124
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 124, assigned to loop 1
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55550, fd: 125
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 125, assigned to loop 2
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55552, fd: 126
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 126, assigned to loop 3
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55554, fd: 127
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 127, assigned to loop 0
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55562, fd: 128
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 128, assigned to loop 1
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55576, fd: 129
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 129, assigned to loop 2
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55590, fd: 130
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 130, assigned to loop 3
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55594, fd: 131
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 131, assigned to loop 0
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55608, fd: 132
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 132, assigned to loop 1
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55610, fd: 133
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 133, assigned to loop 2
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 113
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 113
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55618, fd: 134
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 134, assigned to loop 3
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55624, fd: 135
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 135, assigned to loop 0
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 117
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 117
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55628, fd: 136
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 136, assigned to loop 1
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55644, fd: 137
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 137, assigned to loop 2
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 121
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 121
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55652, fd: 138
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 138, assigned to loop 3
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 125
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 125
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55656, fd: 139
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 139, assigned to loop 0
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 129
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 129
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 133
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 133
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 114
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 114
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 137
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 137
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 118
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 118
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 122
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 122
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 126
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 126
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 130
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 130
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 134
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 134
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 138
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 138
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 116
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 116
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 120
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 120
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 124
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 124
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 128
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 128
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 132
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 132
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 136
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 136
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 115
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 115
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 119
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 119
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 123
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 123
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 127
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 127
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 131
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 131
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 135
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 135
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 139
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 139
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55670, fd: 140
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 140, assigned to loop 1
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 140
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 140
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55680, fd: 141
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 141, assigned to loop 2
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55694, fd: 142
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 142, assigned to loop 3
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55702, fd: 143
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 143, assigned to loop 0
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55718, fd: 144
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 144, assigned to loop 1
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55720, fd: 145
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 145, assigned to loop 2
+[INFO][2026-11-15 18:00:36]Acceptor: new client, IP: 127.0.0.1, port: 55722, fd: 146
+[INFO][2026-11-15 18:00:36]TcpServer: new connection, fd: 146, assigned to loop 3
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 143
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 143
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 144
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 144
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 141
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 141
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 145
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 145
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 142
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 142
+[INFO][2026-11-15 18:00:36]Connection: established, fd: 146
+[INFO][2026-11-15 18:00:36]EventLoop: connection added, fd: 146
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 24
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 28
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 32
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 36
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 40
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 44
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 48
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 52
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 56
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 60
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 84
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 104
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 108
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 112
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 116
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 120
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 124
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 128
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 122
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 33
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 37
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 41
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 45
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 65
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 69
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 73
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 89
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 93
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 97
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 101
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 133
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 137
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 19
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 31
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 35
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 39
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 43
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 63
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 67
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 71
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 75
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 87
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 91
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 95
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 99
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 103
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 135
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 139
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 54
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 58
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 22
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 26
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 30
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 34
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 38
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 42
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 46
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 50
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 106
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 110
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 114
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 118
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 126
+[INFO][2026-11-15 18:00:44]Connection: closed by peer, fd: 130

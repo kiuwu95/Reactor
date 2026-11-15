@@ -1,4 +1,5 @@
-﻿#include"include/Channel.h"
+#include"Channel.h"
+#include"Logger.h"
 
 Channel::Channel(const int& fd, EventLoop* loop) :
     fd_(fd), loop_(loop) {
@@ -9,6 +10,9 @@ Channel::Channel(const int& fd, EventLoop* loop) :
 Channel::~Channel() {
     if (epoll_ctl(loop_->epfd(), EPOLL_CTL_DEL, fd_, nullptr) == -1) {
         perror("epoll_ctl");
+        if (Logger* lg = loop_->logger()) {
+            lg->Log(LEVEL::WARN, "Channel: epoll_ctl DEL failed, fd: {}, errno: {}", fd_, strerror(errno));
+        }
     }
     close(fd_);
 }

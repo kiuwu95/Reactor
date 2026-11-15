@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include<arpa/inet.h>
 #include<string.h>
 #include<errno.h>
@@ -9,6 +9,7 @@
 #include"Buffer.h"
 class Channel;
 class EventLoop;
+class Logger;
 
 class Connection {
 public:
@@ -31,4 +32,5 @@ private:
     std::unique_ptr<Channel> channel_;
 
     std::string rmsg;
+    Logger* logger_ = nullptr;
 };

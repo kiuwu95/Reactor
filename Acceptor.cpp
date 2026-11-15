@@ -1,12 +1,18 @@
-﻿#include"include/Acceptor.h"
-#include"include/EventLoop.h"
-#include"include/Channel.h"
-#include"include/GetTime.h"
+#include"Acceptor.h"
+#include"EventLoop.h"
+#include"Channel.h"
+#include"Logger.h"
 
-Acceptor::Acceptor(EventLoop* loop, const uint16_t& port, const char IP[]) :main_loop(loop) {
+Acceptor::Acceptor(EventLoop* loop, Logger* Logger, const uint16_t& port, const char IP[]) :
+    main_loop(loop), logger(Logger) {
+
+    logger->Log(LEVEL::INFO, "Acceptor: initializing, IP: {}, port: {}", IP, port);
+
     int lfd = socket(AF_INET, SOCK_STREAM, 0);
     if (lfd == -1) {
         perror("socket");
+        logger->Log(LEVEL::ERROR, "Acceptor: socket() failed, errno: {}", strerror(errno));
+
         return;
     }
     fcntl(lfd, F_SETFL, fcntl(lfd, F_GETFL, 0) | O_NONBLOCK);
@@ -17,10 +23,14 @@ Acceptor::Acceptor(EventLoop* loop, const uint16_t& port, const char IP[]) :main
     inet_pton(AF_INET, IP, &saddr.sin_addr.s_addr);
     if (bind(lfd, (sockaddr*)&saddr, sizeof(saddr)) == -1) {
         perror("bind");
+        logger->Log(LEVEL::ERROR, "Acceptor: bind failed on {}:{}, errno: {}", IP, port, strerror(errno));
+
         return;
     }
     if (listen(lfd, SOMAXCONN) == -1) {
         perror("listen");
+        logger->Log(LEVEL::ERROR, "Acceptor: listen failed, errno: {}", strerror(errno));
+
         return;
     }
 
@@ -29,6 +39,8 @@ Acceptor::Acceptor(EventLoop* loop, const uint16_t& port, const char IP[]) :main
     listen_channel->SetReadCallBack([this] {AcceptClient();});
 
     listen_channel->EnableReading();
+
+    logger->Log(LEVEL::INFO, "Acceptor: start listening on {}:{}", IP, port);
 }
 void Acceptor::SetConnectionCallBack(std::function<void(int)> cb) {
     conn_cb = std::move(cb);
@@ -44,14 +56,15 @@ void Acceptor::AcceptClient() {
                 break;
             }
             perror("accept");
+            logger->Log(LEVEL::ERROR, "Acceptor: accept failed, errno: {}", strerror(errno));
+
             break;
         }
 
-        char IP[32];
-        std::cout << GetTime::GetCurrentTime();
-        std::cout << "A new client has connected!"
-            << "    IP: " << inet_ntop(AF_INET, &caddr.sin_addr.s_addr, IP, sizeof(IP))
-            << " Port: " << caddr.sin_port << std::endl;
+        char IP[32] = { 0 };
+        inet_ntop(AF_INET, &caddr.sin_addr.s_addr, IP, sizeof(IP));
+        logger->Log(LEVEL::INFO, "Acceptor: new client, IP: {}, port: {}, fd: {}",
+            IP, ntohs(caddr.sin_port), cfd);
 
         conn_cb(cfd);
     }

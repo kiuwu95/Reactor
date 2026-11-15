@@ -1,10 +1,12 @@
 ﻿#pragma once
 #include<thread>
 #include<vector>
+#include<atomic>
 #include<unordered_map>
 
 class Acceptor;
 class EventLoop;
+class Logger;
 
 class TcpServer {
 public:
@@ -20,7 +22,8 @@ private:
 private:
     std::unique_ptr<EventLoop>main_loop;
     std::unique_ptr<Acceptor>acceptor_;
+    std::unique_ptr<Logger>logger_;
     std::vector<std::unique_ptr<EventLoop>>sub_loops;
     std::vector<std::thread>threads_;
-    size_t loops_index;
+    std::atomic<size_t>loops_index = 0;
 };

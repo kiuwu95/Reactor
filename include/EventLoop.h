@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include<sys/epoll.h>
 #include<sys/eventfd.h>
 #include<arpa/inet.h>
@@ -6,12 +6,14 @@
 #include<memory>
 #include<atomic>
 #include<mutex>
+#include<deque>
 #include<thread>
 #include<functional>
 #include<unordered_map>
 
 class Channel;
 class Connection;
+class Logger;
 
 class EventLoop {
 public:
@@ -33,15 +35,20 @@ public:
     void HandleTasks();
     void EnableEventFd();
     void AddTask(std::function<void()> f);
+
+    void SetLogger(Logger* logger) { logger_ = logger; }
+    Logger* logger() const { return logger_; }
 private:
     int epfd_;
     std::atomic<bool> end_ = false;
 
     std::unordered_map<int, std::unique_ptr<Connection>> Connections_;
-    std::vector<int> connectionsBin;
+    std::deque<int> connectionsBin;
 
     std::unique_ptr<Channel> ev_channel_;
-    std::vector <std::function<void()>>tasks_;
+    std::deque<std::function<void()>>tasks_;
     std::mutex mtx_;
     std::thread::id thread_id_;
+
+    Logger* logger_ = nullptr;
 };

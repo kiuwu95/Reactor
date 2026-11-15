@@ -1,12 +1,16 @@
-﻿#include"include/Connection.h"
-#include"include/Channel.h"
-#include"include/GetTime.h"
-#include"include/EventLoop.h"
+#include"Connection.h"
+#include"Channel.h"
+#include"EventLoop.h"
+#include"Logger.h"
 
 Connection::Connection(const int& fd, EventLoop* loop) :
     read_buff_(std::make_unique<Buffer>()),
     write_buff_(std::make_unique<Buffer>()),
     channel_(std::make_unique<Channel>(fd, loop)) {
+    logger_ = loop->logger();
+    if (logger_) {
+        logger_->Log(LEVEL::INFO, "Connection: established, fd: {}", fd);
+    }
 }
 
 const std::string Connection::RecvMsg() {
@@ -17,6 +21,10 @@ const std::string Connection::RecvMsg() {
             MSGSIZE = ntohl(MSGSIZE);
 
             if (MSGSIZE == 0 || MSGSIZE > 4096) {
+                if (logger_) {
+                    logger_->Log(LEVEL::WARN, "Connection: invalid frame length {}, fd: {}, drop header",
+                        MSGSIZE, channel_->fd());
+                }
                 read_buff_->hread(4);
                 return "";
             }
@@ -38,6 +46,9 @@ const std::string Connection::RecvMsg() {
         }
 
         if (n == 0) {
+            if (logger_) {
+                logger_->Log(LEVEL::INFO, "Connection: closed by peer, fd: {}", channel_->fd());
+            }
             std::cout << "Client " << channel_->fd() << " has disconnected..." << std::endl;
             this->DeleteConnection();
             return "";
@@ -50,6 +61,10 @@ const std::string Connection::RecvMsg() {
             continue;
         }
         perror("recv");
+        if (logger_) {
+            logger_->Log(LEVEL::WARN, "Connection: recv failed, fd: {}, errno: {}",
+                channel_->fd(), strerror(errno));
+        }
         return "";
     }
 }
@@ -62,6 +77,10 @@ void Connection::SendMsg(std::string_view Msg) {
 
     if (write_buff_->writen(channel_->fd()) == -1) {
         perror("writen");
+        if (logger_) {
+            logger_->Log(LEVEL::WARN, "Connection: send failed, fd: {}, errno: {}",
+                channel_->fd(), strerror(errno));
+        }
     }
 }
 

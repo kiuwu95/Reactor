@@ -1,6 +1,6 @@
-﻿#include"include/Client.h"
-#include"include/GetTime.h"
-#include"include/Buffer.h"
+﻿#include"Client.h"
+#include"GetTime.h"
+#include"Buffer.h"
 
 Client::Client() :cfd_(socket(AF_INET, SOCK_STREAM, 0)),
 read_buff_(std::make_unique<Buffer>()),
@@ -33,7 +33,7 @@ bool Client::ConnectServer(const char IP[], const uint16_t& port) {
     stopListen_ = false;
     this->StartListen();
 
-    std::cout << GetTime::GetCurrentTime();
+    std::cout << GetTime::RetCurrentTime();
     std::cout << "Connected to the server successfully!" << std::endl;
 
     return 1;
@@ -45,7 +45,7 @@ void Client::StartListen() {
         while (!end_) {
             while (!stopListen_) {
                 if (!(recv_msg = this->RecvMsg()).size() && recv_msg != "") {
-                    std::cout << GetTime::GetCurrentTime() << recv_msg << std::endl;
+                    std::cout << GetTime::RetCurrentTime() << recv_msg << std::endl;
                 }
             }
         }
